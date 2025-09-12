@@ -17,6 +17,9 @@ const poppins = Poppins({
 export const metadata = {
   title: 'Smart Sales Inventory',
   description: 'Solusi Cerdas untuk Mengelola Penjualan & Stok UMKM',
+  icons: {
+    icon: '/bar-chart.png',
+  },
 };
 
 export default function RootLayout({
